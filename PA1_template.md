@@ -69,6 +69,7 @@ hist(new_steps)
 mean_daily_steps2<-mean(new_steps)
 median_daily_steps2<-median(new_steps)
 ```
+For any missing value of steps, the average # of steps for that time interval is used.
 Number of missing values in "steps": 2304  
 Mean daily steps: 1.0766189\times 10^{4}   
 Median daily steps: 1.0766189\times 10^{4}  
